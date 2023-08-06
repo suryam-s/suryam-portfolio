@@ -11,18 +11,19 @@
     text-decoration:none;
 }
 :root {
-    --color-bg: white;
-    --color-bg-variant: skyblue ;
-    --color-primary: red;
+    --color-bg: #faf1f1;
+    --color-bg-variant: #2c2c6c ;
+    --color-primary: #4db5ff;
     --color-primary-variant:rgba(77,181,255,0.4);
-    --color-white: white;
-    --color-light: rgba(255,255,255,0.6);
+    --color-black: #0a0a0a;
+    --color-light: rgb(236, 152, 152);
 
     --transition:all 400ms ease;
 
     --container-width-lg:75%;
-    --container-width-sm:90%;
     --container-width-md:86%;
+    --container-width-sm:90%;
+    
 }
 html{
     scroll-behavior: smooth;
@@ -34,9 +35,8 @@ html{
 body{
     font-family: 'Noto Sans', sans-serif;
     background : var(--color-bg);
-    color: var(--color-white);
+    color: var(--color-black);
     line-height: 1.7;
-    background-image:url();
 }
 
 .container{
@@ -70,14 +70,14 @@ a {
     transition: var(--transition);
 }
 a:hover{
-    color:var(--color-white);
+    color:var(--color-black);
 }
 .btn{
     width: max-content;
     display:inline-block;
     color:var(--color-primary);
     padding:0.75rem 1.3rem;
-    border: 1px solod var(--color-primary);
+    border: 1px solid var(--color-primary);
     cursor: pointer;
     transition: var(--transition);
 }
@@ -103,7 +103,7 @@ img{
         width:var(--container-width-md);
     }
     section{
-        margin-top:5.9rem;
+        margin-top:6rem;
     }
 }
 /* small-screen */
