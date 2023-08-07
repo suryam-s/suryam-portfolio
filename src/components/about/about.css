@@ -20,3 +20,36 @@
 .about_me-image:hover{
     transform:rotate(0deg)
 }
+.about__content p{
+    margin:2rem 0 2.6rem;
+    color: var(--color-light);
+}
+
+/* responsive */
+/* medium screen */
+@media screen and (max-width:1024px){
+    .about__container{
+      grid-template-columns: 1fr;
+      gap: 0;
+    }
+    .about_me {
+        width: 50px;
+        margin:2rem auto 4rem;
+    }
+    .about__content p{
+        margin : 1rem 0 1.5rem;
+    }
+  }
+  /* small-screen */
+  @media screen and (max-width:600px){
+    .about_me{
+        width:65%;
+        margin: 0 auto 3rem;
+    }
+    .about__content{
+        text-align: center;
+    }
+    .about__content p{
+        margin: 1.5rem 0;
+    }
+  }
