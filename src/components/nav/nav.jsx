@@ -11,7 +11,7 @@ const Nav = () => {
 
   return (
     <nav>
-      <button onClick={() => setActiveNav('home')} className={activeNav === 'home' ? 'active' : ''}>
+      <button onClick={() => setActiveNav('Home')} className={activeNav === 'Home' ? 'active' : ''}>
         <AiOutlineHome />
       </button>
       <button onClick={() => setActiveNav('about')} className={activeNav === 'about' ? 'active' : ''}>
